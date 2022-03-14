@@ -10,7 +10,7 @@ if [[ $(git branch --show-current) == 'mazdak' ]] ; then
 
 else
   # Don't build
-  echo "HOW ARE YOU!!!!!!"
+  echo "✅ branch is correct"
 fi
 
 if [[ "$VERCEL_ENV" == "production" ]] ; then
