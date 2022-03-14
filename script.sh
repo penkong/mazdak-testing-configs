@@ -1,6 +1,7 @@
 #!/bin/bash
 
 echo "VERCEL_ENV: $VERCEL_ENV"
+echo "git branch --show-current"
 
 if [[ "$VERCEL_ENV" == "production" ]] ; then
   # Proceed with the build
